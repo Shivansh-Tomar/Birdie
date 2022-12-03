@@ -202,6 +202,9 @@
 .servicetext{
     font-size: 15px;
 }
+.serviceheader{
+    text-align: center;
+}
 @media screen and (max-width:800px){
     .service-elements{
         margin-top: auto;
@@ -209,10 +212,11 @@
         justify-content: center;
         display: inline;
         text-align: center;
-        padding:inherit;
+        padding: 0px 0px;
     }
     .list{
-        margin: 20px;
+        margin-left: auto;
+        margin-right: auto;
         border-radius: 50px;
         color: #fff;
         background: rgba(0, 0, 0, 1);
