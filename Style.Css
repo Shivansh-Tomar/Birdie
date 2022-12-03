@@ -246,6 +246,8 @@
     
     .navbar{
         flex-direction: column;
+    }
+    .h-nav{
         height: 72px;
     }
     #search{
