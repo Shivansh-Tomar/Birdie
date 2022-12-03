@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+    font-size: 20px;
+}
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    color: grey;
+}
+.rightnav{
+    /* background-color: aqua;*/
+    width: 50%;
+    text-align: right;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(Bg.png);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 60%;
+    margin: auto;
+    height: 80%;
+}
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondHalf{
+    width: 30%;
+}
+.secondHalf img{
+    width: 70%;
+    display: block;
+    margin: auto;
+    border: 20px;
+    border-radius: 100px;
+}
+.text-big{
+    font-size: 50px;
+    text-align: center;
+}
+.text-small{
+    font-size: 25px;
+}
+.buttons{
+    position: relative;
+}
+.btn{
+    border: 1px solid #3498db;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+.btn1{
+    color: #3498db;
+}
+.btn1:hover{
+    color: #fff;
+}
+.btn2{
+    color: #3498db;
+    border-radius: 5px;
+    padding: 3px 8px;
+    font-size: 16px;
+}
+.btn2:hover{
+    color: #fff;
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #3498db;
+    z-index: -1;
+    transition: 0.8s;
+}
+.btn1::before{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+.btn1:hover::before{
+    height: 180%;
+}
+.btn2::before{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+.btn2:hover::before{
+    height: 180px;
+}
