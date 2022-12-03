@@ -167,6 +167,7 @@
     justify-content: center;
     display: flex;
     color: #fff;
+    z-index: -1;
 }
 .services{
     background: rgba(0, 0, 0, 0.2);
@@ -180,6 +181,7 @@
     text-align: center;
     margin-top: 100px;
     padding: 50px;
+    z-index: -1;
 }
 .service-elements{
     margin-top: 20px;
@@ -219,7 +221,7 @@
     border-radius: 2px;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:840px){
     .service-elements{
         margin-top: auto;
         align-content: center;
