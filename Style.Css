@@ -205,6 +205,20 @@
 .serviceheader{
     text-align: center;
 }
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5px;
+    display: none;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 4px;
+    border-radius: 2px;
+}
+
 @media screen and (max-width:800px){
     .service-elements{
         margin-top: auto;
@@ -225,5 +239,30 @@
         width: fit-content;
         max-width: 200px;
         justify-content: center;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    
+    .navbar{
+        flex-direction: column;
+        height: 72px;
+    }
+    #search{
+        width: 100%;
+    }
+    .rightnav{
+        text-align: center;
+    }
+    .burger{
+        display: block;
+    }
+    .v-class{
+        opacity:0;
+    }
+    .logo{
+        display: block;
+        align-content: right;
+        opacity:100%;
     }
 }
