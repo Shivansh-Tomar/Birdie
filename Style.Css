@@ -10,13 +10,13 @@
     background-color: white;
     border-radius: 50px;
     -webkit-transition: -webkit-transform 1s;
-    width: 80px;
+    width: 60px;
 }
 .logo svg{
-    width: 100px;
+    width: 100%;
 }
 .logo:hover{
-    width: 100px;
+    width: 80px;
     -webkit-transform: rotate(360deg) translateZ(0);
     transition: 0.8s;
     animation: bounce 1.8s;
