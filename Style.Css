@@ -269,4 +269,8 @@
         align-content: right;
         opacity:100%;
     }
+    .secondHalf img{
+        width: 100px;
+        
+    }
 }
