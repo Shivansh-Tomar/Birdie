@@ -250,21 +250,90 @@
     display: flex;
 }
 .addressbar{
-    width: 50%;
-    padding: 20px 50px;
+    width: 85%;
+    padding: 50px 0px;
     color: #fff;
-    margin-left: 3%;
 }
 .addressbar p{
     font-size: 20px;
+    margin: 30px;
 }
 .addressbar p i{
     font-size: 18px;
 }
 .contactform{
-    width: 50%;
+    width: 70%;
     padding: 20px 50px;
+    align-content: center;
+    justify-content: center;
 }
+
+.contactform input{
+    border: 2px solid rgb(137, 227, 255);
+    border-radius: 5px;
+    width: 100%;
+    margin: 5px;
+    text-align: left;
+    font-size: 16px;
+}
+.name, .email, .phone{
+    height: 30px;
+}
+textarea {
+    border: 2px solid rgb(137, 227, 255);
+    border-radius: 5px;
+    width: 100%;
+    margin: 5px;
+    text-align: left;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    color: gray;
+}
+.contactform input[type=text]:focus {
+    border: 3px solid #555;
+}
+.btn-3{
+    border: 1px solid #3498db;
+    background: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+.btn-3{
+    color: #3498db;
+    border-radius: 5px;
+}
+.btn-3:hover{
+    color: #fff;
+}
+
+.btn-3::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #3498db;
+    z-index: -1;
+    transition: 0.8s;
+}
+
+.btn-3::before{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+.btn-3:hover::before{
+    height: 180px;
+}
+
 @media screen and (max-width:840px){
     .service-elements{
         margin-top: auto;
@@ -316,5 +385,14 @@
     .secondHalf img{
         width: 100px;
         
+    }
+    .contactsection{
+        display: inline;
+    }
+    .addressbar p{
+        font-size: 25px;
+    }
+    .addressbar p i{
+        font-size: 20px;
     }
 }
