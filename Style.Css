@@ -18,7 +18,7 @@
     top: 0%;
     cursor: pointer;
     font-size: 20px;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.8);
 }
 .nav-list{
     width: 50%;
@@ -32,6 +32,7 @@
 .nav-list li a{
     text-decoration: none;
     color: white;
+    font-style: italic;
 }
 .nav-list li a:hover{
     color: grey;
