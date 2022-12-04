@@ -158,6 +158,8 @@
     padding: 100px 100px;
     border-radius: 100px;
     color: #fff;
+    margin-left: 5%;
+    margin-right: 5%;
 
 }
 .sectionTag{
@@ -183,6 +185,8 @@
     margin-top: 100px;
     padding: 50px;
     z-index: -1;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .service-elements{
     margin-top: 20px;
@@ -193,7 +197,7 @@
     padding: 50px 20px;
 }
 .list{
-    margin: 20px;
+    margin: 2%;
     border-radius: 50px;
     color: #fff;
     background: rgba(0, 0, 0, 1);
