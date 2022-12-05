@@ -429,3 +429,36 @@ textarea {
         font-size: 20px;
     }
 }
+.footer{
+    width: 100%;
+    height: 250px;
+    background: rgba(0, 0, 0, 1);
+    margin-top: 100px;
+    display: flex;
+}
+.implinks{
+    width: 50%;
+    display: flex;
+}
+.blog{
+    width: 50%;
+}
+.footlogo{
+    width: 50px;
+    background-color: #fff;
+    border-radius: 25px;
+}
+.footlogo:hover{
+    width: 80px;
+    -webkit-transform: rotate(360deg) translateZ(0);
+    transition: 0.4s;
+    animation: bounce 1.8s;
+}
+@keyframes bounce {
+    0%{transform: translateY(0);}
+    20%{transform: translateY(-30px);}
+    25%{transform: translateY(20px);}
+    35%, 55%{transform: translateY(0);}
+    60%{transform: translateY(-20px);}
+    100%{transform: translateY(-20px) rotate(360deg);}
+}
